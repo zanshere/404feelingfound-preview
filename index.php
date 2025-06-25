@@ -750,15 +750,15 @@ body {
                                 </a>
                                 <?php if ($userRole === 'siswa'): ?>
                                     <a href="<?= base_url('pages/dashboard_siswa.php') ?>" class="dropdown-item">
-                                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                                        <i class="fas fa-tachometer-alt"></i> Dashboard Siswa
                                     </a>
                                 <?php elseif ($userRole === 'guru'): ?>
                                     <a href="<?= base_url('pages/dashboard_guru.php') ?>" class="dropdown-item">
-                                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                                        <i class="fas fa-tachometer-alt"></i> Dashboard Guru
                                     </a>
                                 <?php elseif ($userRole === 'ortu'): ?>
                                     <a href="<?= base_url('pages/dashboard_ortu.php') ?>" class="dropdown-item">
-                                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                                        <i class="fas fa-tachometer-alt"></i> Dashboard Orang Tua
                                     </a>
                                 <?php endif; ?>
                                 <div class="dropdown-divider"></div>
@@ -889,7 +889,7 @@ body {
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 404FeelingFound | Fianka - Osa- Vita - Zans? . All rights reserved.</p>
+            <p>&copy; 2025 404FeelingFound | Fianka - Osa- Vita - Mystery Man . All rights reserved.</p>
         </div>
     </footer>
 
