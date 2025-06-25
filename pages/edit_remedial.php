@@ -1,6 +1,5 @@
 <?php
 require_once __DIR__ . '/../config/database.php';
-include __DIR__ . '/../config/baseURL.php';
 require_once __DIR__ . '/../auth/auth.php';
 
 // Pastikan hanya guru
