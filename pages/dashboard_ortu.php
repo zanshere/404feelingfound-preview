@@ -434,8 +434,6 @@ $childRemedials[$child['id']] = $stmt->fetchAll();
             <nav class="nav">
                 <div class="nav-menu">
                     <a href="<?= base_url('index.php') ?>" class="nav-link"><i class="fas fa-home"></i> Beranda</a>
-                    <a href="<?= base_url('about.php') ?>" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a>
-                    <a href="<?= base_url('resources.php') ?>" class="nav-link"><i class="fas fa-book"></i> Sumber Daya</a>
                 </div>
                 <span class="flex-center" style="color: #5AB0E0;"><i class="fas fa-user-circle"></i> <?= htmlspecialchars($_SESSION['nama']) ?></span>
                 <a href="<?= base_url('auth/logout.php') ?>" class="btn btn-primary"><i class="fas fa-sign-out-alt"></i> Logout</a>
