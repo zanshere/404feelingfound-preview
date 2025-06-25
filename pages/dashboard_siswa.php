@@ -1096,7 +1096,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_remedial_task'
                             <?php if (!$remedial['is_completed']): ?>
                             <tr>
                                 <td colspan="5">
-                                    <form action="<?= base_url('submit_remedial_file.php') ?>" method="POST" enctype="multipart/form-data">
+                                    <form action="<?= base_url('functions/submit_remedial_file.php') ?>" method="POST" enctype="multipart/form-data">
                                         <input type="hidden" name="remedial_id" value="<?= $remedial['id'] ?>">
                                         <label>Upload File Tugas:</label>
                                         <input type="file" name="submission_file" required>
